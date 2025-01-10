@@ -1,10 +1,21 @@
-# stl_cpp
-### sort in increasing order:
-    sort(nums.begin(),nums.end(),greater<int>());
-###Different ways of using priority_queue (i.e. heap) 🗻
-###Default declarations
-        priority_queue<int> pq;                            //creates max-heap
-	priority_queue<int, vector<int>> pq;               //creates max-heap
+C++ STL Quick Help
+##sort in increasing 
+      sort(nums.begin(),nums.end(),greatest<int>());
+
+
+
+
+
+
+
+      
+It contains C++ STLs usage and quick help with easy to understand comments and examples (copy+paste to use). I learned these while solving different kinds of Leetcode Questions.
+I will be using "int, string etc" for ease and not complex entities like pairs, structs etc 😉. You can replace it with any data structure If you are confused with the syntax or description, see the example. I am sure that will clear things BECAUSE I have specifically chosen
+🔎 "EASY + IMPORTANT + MOST USED" examples. Last but not least, I have added Leetcode Qns also which can be easily solved using STLs
+📝Different ways of using priority_queue (i.e. heap) 🗻
+Default declarations
+priority_queue<int> pq;                            //creates max-heap
+priority_queue<int, vector<int>> pq;               //creates max-heap
 
 writing comparator function for priority_queue
 1. Using in-built comparator provided by C++ : 
@@ -347,3 +358,22 @@ Example :
 	
 	Qns on Leetcode: 2215
 	Leetcode - : Find the Difference of Two Arrays
+    
+About
+It contains C++ STLs usage and quick help with easy to understand comments and examples
+
+Resources
+ Readme
+ Activity
+Stars
+ 109 stars
+Watchers
+ 5 watching
+Forks
+ 53 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Footer
