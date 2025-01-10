@@ -1,10 +1,10 @@
 # stl_cpp
 ### sort in increasing order:
     sort(nums.begin(),nums.end(),greater<int>());
-Different ways of using priority_queue (i.e. heap) 🗻
-Default declarations
-priority_queue<int> pq;                            //creates max-heap
-priority_queue<int, vector<int>> pq;               //creates max-heap
+###Different ways of using priority_queue (i.e. heap) 🗻
+###Default declarations
+        priority_queue<int> pq;                            //creates max-heap
+	priority_queue<int, vector<int>> pq;               //creates max-heap
 
 writing comparator function for priority_queue
 1. Using in-built comparator provided by C++ : 
